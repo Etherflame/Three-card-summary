@@ -1,0 +1,101 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1 {
+  margin: 0rem;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  background-color: var(--n-very-light-gray);
+  line-height: 1.3;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --p-bright-orange: hsl(31, 77%, 52%);
+  --p-dark-cyan: hsl(184, 100%, 22%);
+  --p-very-dark-cyan: hsl(179, 100%, 13%);
+  --n-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --n-very-light-gray: hsl(0, 0%, 95%);
+}
+
+.main {
+  margin: 5rem 1.25rem;
+}
+
+.card-container {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-container div:first-child {
+  background-color: var(--p-bright-orange);
+}
+
+.card-container div:first-child a {
+  color: var(--p-bright-orange);
+}
+
+.card-container div:nth-child(2) {
+  background-color: var(--p-dark-cyan);
+}
+
+.card-container div:nth-child(2) a {
+  color: var(--p-dark-cyan);
+}
+
+.card-container div:last-child {
+  background-color: var(--p-very-dark-cyan);
+}
+
+.card-container div:last-child a {
+  color: var(--p-very-dark-cyan);
+}
+
+.card {
+  padding: 0rem 3rem;
+  padding-bottom: 3rem;
+  padding-right: 6rem;
+  line-height: 1.6;
+}
+
+.card img {
+  padding-top: 2rem;
+  width: 3rem;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  color: var(--n-very-light-gray);
+  margin-top: 1rem;
+}
+
+.card p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--n-transparent-white);
+  margin-bottom: 1.25rem;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */
