@@ -1,0 +1,67 @@
+.main {
+  margin: 5rem 1.25rem;
+}
+
+.card-container {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  div:first-child {
+    background-color: var(--p-bright-orange);
+
+    a {
+      color: var(--p-bright-orange);
+    }
+  }
+
+  div:nth-child(2) {
+    background-color: var(--p-dark-cyan);
+
+    a {
+      color: var(--p-dark-cyan);
+    }
+  }
+
+  div:last-child {
+    background-color: var(--p-very-dark-cyan);
+
+    a {
+      color: var(--p-very-dark-cyan);
+    }
+  }
+}
+
+.card {
+  padding: 0rem 3rem;
+  padding-bottom: 3rem;
+  padding-right: 6rem;
+  //   margin-right: 3rem;
+  line-height: 1.6;
+
+  img {
+    padding-top: 2rem;
+    width: 3rem;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 2.5rem;
+    color: var(--n-very-light-gray);
+    margin-top: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--n-transparent-white);
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+  }
+}
